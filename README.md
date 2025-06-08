@@ -31,6 +31,8 @@
 ### \( { \color{red}e^{(a + b \, i)*t} = e^{a*t} * ( Cos( b * t ) + i * Sin( b * t ) )} \)
 -->  
 
+![](Images/Asterisk_01.png)
+
 ![](Images/09-11-05.png)  
 
 <!--  
@@ -53,3 +55,9 @@
 #### 3. 其他實例驗證，請參考 [ 精 銳 矩 陣 計 算 求 解 器 ( 相關的實例驗證，即儲存庫中的各種檔案 ) ]  
 #### 4. Fourier Transform, Laplace Transfor, Z Transform, 以及Convolution Integer 是近似的求解法，而且僅適用於1度空間點(m=1)多階(r>1)的情況，但本法是先進的求解法，可直接求解多度空間點(m>1)多階(r>1)的微分方程式，更可使用類別庫程式碼，求解很方便。但使用各種轉換(Transform)技術，間接且不容易求解，原因是沒有一定的步驟，程式碼撰寫也不容易。  
 -->  
+
+![](Images/Asterisk_02.png)
+
+## [儲存庫 : github.com/myyeh2/Docs_2E](https://www.github.com/myyeh2/Docs_2E)
+
+![](Images/Asterisk_02.png)
