@@ -8,17 +8,12 @@
 #### \[ { \color{Green}【Sharp \; Matrix \; Solver \quad\; S\; M\; S】} \]
 -->
 
-
-
 ![](Images/09-11-02.png)  
 
 <!--   
 ##### \[ { \color{Red}Dennis\quad G.\quad Zill} \]  
 ##### \[ { \color{Red} Differential \; Equations\; with \; Boundary \_ Value \; Problems \; 9th\;Ed.\; 第322頁 \; Ex \_1 } \]
 -->
-
-
-
 
 ![](Images/09-11-03.png)  
 
@@ -27,9 +22,6 @@
 ### 求解動態系統，包含狀態空間變數(state-space variables)的響應值【實數值】、系統特徵值【頻率，複數值】、和對應之特徵向量【模態，複數值】，由學公式的推導，更重要的是C#程式語言的實作，在微軟 Visual Studio 開發環境上，相關專案的測試、執行與驗證。    
 ### 如果實際去\({\color{red}量測}\)【measurement】\({\color{fuchsia}頻率和模態}\)時，就是對應\( {\color{red}複數特徵值和複數特徵向量的絕對值}\)【absolute value】或稱\({\color{red}模數}\)【Modulus】。以上是本人以CSharp程式碼實作所得到的結論，雖然電機系與電子系的學科，譬如訊號與系統等等，有用到複數的計算，但好像也沒有人實際實作過，而且在Matlab軟體或是相關的論文上，好像也找不到相關的論述，若有發現時也請通知本人，並在此表示謝意。
 -->  
-
-
-
   
 ![](Images/09-11-04.png)  
 
@@ -38,9 +30,6 @@
 #### \( { \color{red} { 複數(a + b \; i) = SQRT( a^2 + b^2  ) * ( Cos( \theta ) + i * Sin( \theta ) ) } } \)    
 ### \( { \color{red}e^{(a + b \, i)*t} = e^{a*t} * ( Cos( b * t ) + i * Sin( b * t ) )} \)
 -->  
-
-
-
 
 ![](Images/09-11-05.png)  
 
@@ -55,9 +44,6 @@
 #### \( { \color{red} d_h } \quad 純係數向量，由初始值或邊界值待定，不是時間 \; t \;的函數  \)
 -->  
 
-
-
-
 ![](Images/09-11-06.png)  
 
 <!--  
@@ -67,5 +53,3 @@
 #### 3. 其他實例驗證，請參考 [ 精 銳 矩 陣 計 算 求 解 器 ( 相關的實例驗證，即儲存庫中的各種檔案 ) ]  
 #### 4. Fourier Transform, Laplace Transfor, Z Transform, 以及Convolution Integer 是近似的求解法，而且僅適用於1度空間點(m=1)多階(r>1)的情況，但本法是先進的求解法，可直接求解多度空間點(m>1)多階(r>1)的微分方程式，更可使用類別庫程式碼，求解很方便。但使用各種轉換(Transform)技術，間接且不容易求解，原因是沒有一定的步驟，程式碼撰寫也不容易。  
 -->  
-
-# 
